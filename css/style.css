@@ -1,0 +1,103 @@
+/* =---------------------------------header------------------------- */
+.xBack{
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(rgba(188, 188, 206, 0.6),rgba(216, 216, 247, 0.5)),url(../img/photo-1530156942216-f6487910a7d8.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.xHead{
+    max-width: 40%;
+    min-height: 450px;
+    color: #080808;
+    text-align: center;
+
+}
+
+.xHead_title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.xHead_subtitle{
+    text-align:justify;
+}
+.ox_btn{
+    text-align: center;
+    margin: 35px 0;
+}
+.ox_icon{
+    border: 2px solid grey;
+    background: grey;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.ox_button{
+    background: transparent;
+    border: 1px solid #080808;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.ox_button:hover{
+    background: #080808;
+    color: #fff;
+
+}
+.ox_margintb{
+    margin:35px 0;
+    
+}
+/* ----------------------------------------------wrapper----------------------------- */
+.ox_section{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.ox_section h5{
+    font-weight: bold;
+}
+.ox_section p{
+    margin: 25px 0;
+}
+
+.ox_img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.ox_button2{
+    background: #080808;
+    color: #fff;
+    border: 1px solid #080808;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 740px) {
+    .xHead{
+        max-height: 300px;
+        max-width: 100%;
+       
+    }
+    .xHead_title{
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 35px;
+    }
+   
+    .ox_btn button{
+        margin-bottom: 5px;
+    
+    }
+   
+}
